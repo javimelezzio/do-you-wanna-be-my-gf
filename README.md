@@ -9,6 +9,8 @@ It was created for fun, creativity, and sharing affection through code.
 - Playful **No** button that moves around the screen.
 - Expanding **Yes** button that grows to cover the screen.
 - A love letter popup in a new tab.
+## 📱 Follow me
+Follow me on Instagram: **[@melezzzio](https://instagram.com/melezzzio)**
 
 ## 🚀 Run locally
 1. Clone the repository:
