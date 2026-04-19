@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hiii</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>I have a question for you</h1>
+    <p class="sub">Click the envelope</p>
+
+    <section class="stage">
+      <button id="envelope" class="envelope" type="button" aria-expanded="false">
+        <span class="env-shadow" aria-hidden="true"></span>
+        <span class="env-back" aria-hidden="true"></span>
+        <span class="env-front" aria-hidden="true"></span>
+        <span class="env-flap" aria-hidden="true"></span>
+        <span class="env-text">
+          <span class="t1">For you</span>
+          <span class="t2">Click the envelope</span>
+        </span>
+      </button>
+
+      <article id="card" class="card" aria-hidden="true">
+        <header class="card-h">
+          <div class="seal" aria-hidden="true"></div>
+          <div>
+            <div class="kicker">Important question</div>
+            <div class="q">Do you want to be my girlfriend?</div>
+          </div>
+        </header>
+
+        <div class="card-b">
+          <p class="text">
+            I promise to make you smile every day, support you in everything you do,
+            and love you with all my heart. Will you be mine?
+          </p>
+
+          <div class="btnrow">
+            <button id="yesBtn" class="btn yes" type="button">Yes</button>
+            <button id="noBtn" class="btn no" type="button">No</button>
+          </div>
+
+          <p id="note" class="note" aria-live="polite"></p>
+        </div>
+      </article>
+    </section>
+
+    <p class="foot">Tip: if the new tab doesn’t open, check your pop-up blocker.</p>
+  </main>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
